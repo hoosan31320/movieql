@@ -5,9 +5,9 @@ type Movie {
   rating: Float!
   summary: String!
   language: String!
-  mediun_cover_image: String!
+  medium_cover_image: String!
 }
 
 type Query {
-  movies: [Movie]!
+  movies(limit: Int, rating: Float): [Movie]!
 }
