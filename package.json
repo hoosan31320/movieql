@@ -6,6 +6,7 @@
   "repository": "https://github.com/hoosan31320/movieql",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.18.0",
     "graphql-yoga": "^1.14.8",
     "node-fetch": "^2.1.2"
   },
